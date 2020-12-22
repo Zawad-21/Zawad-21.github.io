@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(images/pexels-cátia-matos-1072179.jpg) no-repeat;
+    background-size: cover;
+}
+
+.box {
+    width: 600px;
+    height: 550px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    color: rgb(219, 219, 219);
+    font-family: initial;
+    letter-spacing: 0.15;
+}
+.box-img {
+    border-radius: 25%;
+    width: 200px;
+    height: 200px;
+}
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box h4 {
+    font-size: 21px;
+    letter-spacing: 1;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box p {
+    font-size: 17px;
+}
+
+.about a {
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: 1s;
+}
+
+.about a:hover {
+    border-bottom: 1px solid white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.box li {
+    display: inline;
+}
+
+.contact p {
+    width: fit-content;
+    padding: inherit;
+    font-size: 21;
+    border-bottom: solid white;
+    border-bottom-width: thin;
+    margin: auto;
+    padding: 0;
+}
