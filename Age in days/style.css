@@ -1,0 +1,42 @@
+.container-1 {
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 2%;
+}
+
+.header {
+    align-items: center;
+    text-align: center;
+}
+
+.flex-box-container-1 {
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex-box-container-1 div {
+    display: flex;
+    padding: 10px;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ending {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+
+h1 {
+    font-family: inherit;
+}
