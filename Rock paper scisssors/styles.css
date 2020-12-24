@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 1.5%;
+}
+
+.flexBox {
+    display: flex;
+    padding: 10px;
+}
+
+.flex-box-rps img:hover {
+    box-shadow: 5px 5px 5px black ;
+    margin: 1px solid black;
+}
