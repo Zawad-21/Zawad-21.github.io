@@ -1,0 +1,11 @@
+.container {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin:0 auto;
+    padding: 0;
+}
+
+.list {
+    list-style-position: inherit;
+}
