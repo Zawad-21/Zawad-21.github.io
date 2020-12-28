@@ -1,0 +1,63 @@
+.container {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.humanDiv {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.humanDiv img {
+
+}
+
+.compDiv {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.compDiv img {
+
+}
+
+.msgDiv {
+    text-align: center;
+    padding: 1px;
+}
+
+.whole {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 6.5%;
+}
+
+.container {
+    
+}
+
+body {
+    background-image: url(https://www.xmple.com/wallpaper/lime-green-linear-gradient-3840x2160-c2-a7feb8-dffea7-a-240-f-14.svg);
+}
+
+.msgDiv button {
+    size: 2500px;
+    font-size: 20px;
+    font-weight: 1000;
+}
+.footer {
+    text-align: center;
+}
+.footer h2 {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    text-decoration: underline solid;
+    font-family: 'Courier New', Courier, monospace;
+}
