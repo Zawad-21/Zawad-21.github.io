@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Yeon Sung', cursive;
+    text-align: center;
+    font-size: 21px;
+    background-color: steelblue;
+    color: whitesmoke;
+    padding-bottom: 5px;
+    letter-spacing: 3px;
+}
+
+h3 {
+    padding-bottom: 13px;
+    padding-top: 13px;
+    font-size: 30px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: steelblue;
+}
+
+.intro p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 4px;
+    padding-left: 4px;
+    font-weight: bolder;
+    border: darkslategray 1px solid;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.inputs input{
+    width: 250px;
+    height: 33px;
+    padding:3px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: steelblue;
+}
+
+.inputs input::placeholder {
+    opacity: 0.35;
+}
+
+
+
+
+.inputs h4 {
+    font-family: sans-serif;
+    color: steelblue;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.btn {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.btn button {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    background-color: steelblue;
+    color: whitesmoke;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: steelblue;
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+
+.resultNUM {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: steelblue;
+    font-size: 30px;
+    border: steelblue 3px solid;
+    outline: none;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
+}
+
+.finalMsg {
+    color: steelblue;
+    text-align: center;
+    font-size: 11px;
+    padding: 10px;
+    font-family: sans-serif;
+    border: 1px solid steelblue;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: steelblue;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Yeon Sung', cursive;
+    text-align: center;
+    font-size: 21px;
+    background-color: steelblue;
+    color: whitesmoke;
+    padding-bottom: 5px;
+    letter-spacing: 3px;
+    padding-top: 5px;
+}
