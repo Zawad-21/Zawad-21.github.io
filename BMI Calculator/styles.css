@@ -138,7 +138,6 @@ footer {
     right: 0;
     bottom: 0;
     text-align: center;
-    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,7 +146,7 @@ footer {
     font-size: 21px;
     background-color: steelblue;
     color: whitesmoke;
-    padding-bottom: 5px;
+    padding-bottom: 9px;
     letter-spacing: 3px;
     padding-top: 5px;
 }
