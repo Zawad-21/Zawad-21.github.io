@@ -80,7 +80,6 @@ nav {
         flex-direction: row;
         text-align: center;
         align-items: center;
-        height: 9vh;
         width: 100%;
     }
     .nav-links {
@@ -95,7 +94,9 @@ nav {
         width: 50%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
-        justify-content: space-between;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        justify-content: space-evenly
     }
     .nav-links a {
         font-size: 18px;
