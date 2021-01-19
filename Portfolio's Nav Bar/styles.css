@@ -1,4 +1,4 @@
-* {
+I'm* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -73,9 +73,9 @@ nav {
     }
     nav {
         display: flex;
-        min-height: 8vh;
+        min-height: 80vh;
         background-color: #03396c;
-        justify-content: space-between;
+        justify-content: space-around;
         padding-left: 39px;
         padding-right: 39px;
         flex-direction: row;
