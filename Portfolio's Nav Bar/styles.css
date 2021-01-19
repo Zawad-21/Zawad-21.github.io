@@ -75,13 +75,12 @@ nav {
         display: flex;
         background-color: #03396c;
         justify-content: space-between;
-        padding-left: 9px;
-        padding-right: 9px;
+        padding-left: 19px;
+        padding-right: 19px;
         flex-direction: row;
         align-items: center;
         height: 8vh;
         width: 100%;
-        margin-top: 17px;
     }
     .nav-links {
         position: absolute;
@@ -114,7 +113,6 @@ nav {
     }
     .logo img {
         height: 45px;
-        padding-top: 11px
     }
 }
 
