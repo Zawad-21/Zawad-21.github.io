@@ -78,7 +78,6 @@ nav {
         padding-left: 29px;
         padding-right: 29px;
         flex-direction: row;
-        text-align: center;
         align-items: center;
         height: 9vh;
         width: 100%;
@@ -115,6 +114,7 @@ nav {
     }
     .logo img {
         height: 45px;
+        padding-top: 3px
     }
 }
 
