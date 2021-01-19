@@ -73,7 +73,7 @@ nav {
     }
     nav {
         display: flex;
-        min-height: 80vh;
+        min-height: 8 vh;
         background-color: #03396c;
         justify-content: space-around;
         padding-left: 39px;
@@ -97,7 +97,7 @@ nav {
         transition: transform 0.5s ease-in;
     }
     .nav-links a {
-        font-size: 23px;
+        font-size: 18px;
     }
     .logo {
         font-size: 25px;
