@@ -81,6 +81,7 @@ nav {
         text-align: center;
         align-items: center;
         width: 100%;
+        height: 9vh;
     }
     .nav-links {
         position: absolute;
