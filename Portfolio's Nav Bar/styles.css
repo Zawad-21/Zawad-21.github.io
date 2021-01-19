@@ -75,8 +75,8 @@ nav {
         display: flex;
         background-color: #03396c;
         justify-content: space-between;
-        padding-left: 19px;
-        padding-right: 19px;
+        padding-left: 9px;
+        padding-right: 9px;
         flex-direction: row;
         align-items: center;
         height: 8vh;
