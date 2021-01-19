@@ -80,6 +80,7 @@ nav {
         padding-right: 39px;
         flex-direction: row;
         text-align: center;
+        align-items: center;
         height: 9vh;
         width: 100%;
     }
