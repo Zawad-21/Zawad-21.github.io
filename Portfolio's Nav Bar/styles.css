@@ -73,6 +73,7 @@ nav {
     }
     nav {
         display: flex;
+        min-height: 8vh;
         background-color: #03396c;
         justify-content: space-between;
         padding-left: 39px;
