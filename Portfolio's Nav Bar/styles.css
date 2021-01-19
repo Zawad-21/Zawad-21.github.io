@@ -73,11 +73,10 @@ nav {
     }
     nav {
         display: flex;
-        min-height: 8 vh;
         background-color: #03396c;
         justify-content: space-around;
-        padding-left: 39px;
-        padding-right: 39px;
+        padding-left: 29px;
+        padding-right: 29px;
         flex-direction: row;
         text-align: center;
         align-items: center;
@@ -96,6 +95,7 @@ nav {
         width: 50%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
+        justify-content: space-around;
     }
     .nav-links a {
         font-size: 18px;
