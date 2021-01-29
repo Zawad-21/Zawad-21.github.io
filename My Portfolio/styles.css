@@ -1,71 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    background: url(images/pexels-cátia-matos-1072179.jpg) no-repeat;
+    /* Location of the image */
+    background-image: url(images/roberto-motoi-3_5zd-OWe5Q-unsplash.jpg);
+    
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    
+    /* Background image is fixed in the viewport so that it doesn't move when 
+       the content's height is greater than the image's height */
+    background-attachment: fixed;
+    
+    /* This is what makes the background image rescale based
+       on the container's size */
     background-size: cover;
+    
+    /* Set a background color that will be displayed
+       while the background image is loading */
+    background-color: #000000;
+  }
+
+#home {
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.box {
-    width: 600px;
-    height: 550px;
-    background: rgba(0, 0, 0, 0.6);
-    padding: 50px;
+.home-div {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 500;
+    background-color: rgba(173, 173, 173, 0.5);
+    height: 80vh;
+    width: 150vh;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5vw;
     text-align: center;
-    margin: auto;
-    margin-top: 3%;
-    color: rgb(219, 219, 219);
-    font-family: initial;
-    letter-spacing: 0.15;
-}
-.box-img {
-    border-radius: 25%;
-    width: 200px;
-    height: 200px;
-}
-.box h1 {
-    font-size: 40px;
-    letter-spacing: 4px;
-    font-weight: 100;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 100px;
 }
 
-.box h4 {
-    font-size: 21px;
-    letter-spacing: 1;
-    font-family: 'Courier New', Courier, monospace;
+.home-div h1, h6, p {
+    font-weight: 400;
+    padding: 0px 50px 0px 50px;
+} 
+
+.social {
+    display: flex;
+    font-size: 2vw;
+    color: white;
 }
 
-.box p {
-    font-size: 17px;
-}
+.fa {  
+    padding: 20px;  
+    text-align: center;
+    font-size: 30px;  
+  }  
+  .fa-github {  
+    color: white;  
+  }  
+  .fa-twitter {  
+    color: white;  
+  }  
+  .fa-reddit {  
+    color: white;  
+  }  
+  .fa-linkedin {  
+    color: white;  
+  }  
+  .fa-instagram {  
+    color: white;  
+  }  
+  .fa:hover {  
+      opacity: 0.9;  
+  }  
 
-.about a {
-    font-size: 21px;
-    color: rgb(255, 255, 255);
+.social a {
     text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: 1s;
 }
 
-.about a:hover {
-    border-bottom: 1px solid white;
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    width: 100vw;
+    height: 9vh;
+    position: fixed;
+    padding-left: 42px;
+    padding-right: 42px;
+    color: white;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
+.logo-text {
+    display: flex;
+    align-items: center;
 }
 
-.box li {
-    display: inline;
+.logo-text h1{
+    padding-left: 20px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 800;
+    font-size: 30px;
 }
 
-.contact p {
-    width: fit-content;
-    padding: inherit;
-    font-size: 21;
-    border-bottom: solid white;
-    border-bottom-width: thin;
-    margin: auto;
-    padding: 0;
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+}
+
+.nav-links a {
+    color:white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.burger {
+    display: none;
+}
+
+.burger div{
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 6px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 42px;
+        padding-right: 42px;
+        flex-direction: row;
+        text-align: center;
+        height: 9vh;
+        width: 100%;
+        align-items: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        
+    }
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 1);
+        top: 0vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        justify-content: space-evenly;
+        padding-bottom: 50px;
+        z-index: -1;
+    }
+    .nav-links a {
+        font-size: 23px;
+    }
+    .nav-links li {
+        opacity: 0;
+    }
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+    .logo{
+        height: 32px;
+    }
+    .logo-text h1{
+        display: none;
+    }
+
+    .home-div {
+        width: 80vw;
+        font-size: 3.5vw;
+        padding-bottom: 50px;
+    }
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
