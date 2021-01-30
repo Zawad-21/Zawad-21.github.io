@@ -237,6 +237,7 @@ nav {
     }
     .home-div p {
         max-width: 75vw;
+        letter-spacing: 3px;
     }
 
     .home-div h1 {
