@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: black;
+    color: #203647;
 }
 
 body {
@@ -72,7 +72,7 @@ body {
 .social {
     display: flex;
     font-size: 2vw;
-    color: black;
+    color: #203647;
 }
 
 .fa {  
@@ -85,19 +85,19 @@ body {
     
   }  
   .fa-github {  
-    color: black;  
+    color: #203647;  
   }  
   .fa-twitter {  
-    color: black;  
+    color: #203647;  
   }  
   .fa-reddit {  
-    color: black;  
+    color: #203647;  
   }  
   .fa-linkedin {  
-    color: black;  
+    color: #203647;  
   }  
   .fa-instagram {  
-    color: black;  
+    color: #203647;  
   }  
   .fa:hover {  
       opacity: 0.5;  
