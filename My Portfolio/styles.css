@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: whitesmoke;
+    color: black;
 }
 
 body {
@@ -24,13 +24,13 @@ body {
     
     /* Set a background color that will be displayed
        while the background image is loading */
-    background-color: #000000;
+    background-color: white;
   }
 
 #home {
     height: 100vh;
     width: 100vw;
-    color: whitesmoke;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,7 +76,7 @@ body {
 .social {
     display: flex;
     font-size: 2vw;
-    color: whitesmoke;
+    color: black;
 }
 
 .fa {  
@@ -89,19 +89,19 @@ body {
     
   }  
   .fa-github {  
-    color: white;  
+    color: black;  
   }  
   .fa-twitter {  
-    color: white;  
+    color: black;  
   }  
   .fa-reddit {  
-    color: white;  
+    color: black;  
   }  
   .fa-linkedin {  
-    color: white;  
+    color: black;  
   }  
   .fa-instagram {  
-    color: white;  
+    color: black;  
   }  
   .fa:hover {  
       opacity: 0.5;  
@@ -121,7 +121,7 @@ nav {
     position: fixed;
     padding-left: 42px;
     padding-right: 42px;
-    color: whitesmoke;
+    color: black;
 }
 
 .logo-text {
@@ -162,7 +162,7 @@ nav {
 .burger div{
     width: 30px;
     height: 3px;
-    background-color: white;
+    background-color: black;
     margin: 6px;
     color: black;
 }
