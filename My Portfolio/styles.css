@@ -2,109 +2,31 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: #203647;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 body {
-    /* Location of the image */
-    
-    /* Background image is centered vertically and horizontally at all times */
-    background-position: center center;
-    
-    /* Background image doesn't tile */
-    background-repeat: no-repeat;
-    
-    /* Background image is fixed in the viewport so that it doesn't move when 
-       the content's height is greater than the image's height */
-    background-attachment: fixed;
-    
-    /* This is what makes the background image rescale based
-       on the container's size */
-    background-size: cover;
-    
-    /* Set a background color that will be displayed
-       while the background image is loading */
-    background-color: #eefbfb;
-  }
+    background-color: #030303;
+}
 
-#home {
+  
+#home, #about-me, #skills {
     height: 100vh;
     width: 100vw;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .home-div {
-    font-family: 'Roboto', sans-serif;
-    color: #203647;
-    font-weight: 500;
-    background-color:rgba(255,255,255,0.2);
-    height: 80vh;
-    width: 130vh;
-    border-radius: 40px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    font-size: 1.5vw;
-    text-align: center;
-    justify-content: center;
-    padding-top: 0;
-}
-
-.home-div h1 {
-    letter-spacing: 5px;
-}
-
-.home-div p {
-    letter-spacing: 4px;
-    max-width: 50vw;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-}
-
-.home-div h1, h6, p {
-    font-weight: 400;
-    padding: 0px 50px 0px 50px;
-} 
-
-.social {
-    display: flex;
-    font-size: 2vw;
-    color: #203647;
-}
-
-.fa {  
-    padding: 20px;  
-    text-align: center;
-    font-size: 30px;  
-    border-radius: 50%;
-    width: 50px;
-    
-    
-  }  
-  .fa-github {  
-    color: #203647;  
-  }  
-  .fa-twitter {  
-    color: #203647;  
-  }  
-  .fa-reddit {  
-    color: #203647;  
-  }  
-  .fa-linkedin {  
-    color: #203647;  
-  }  
-  .fa-instagram {  
-    color: #203647;  
-  }  
-  .fa:hover {  
-      opacity: 0.5;  
-  }  
-
-.social a {
-    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
 }
 
 nav {
@@ -112,38 +34,47 @@ nav {
     justify-content: space-around;
     text-align: center;
     align-items: center;
-    width: 100vw;
+    width: 90vw;
     height: 9vh;
-    position: fixed;
-    padding-left: 42px;
-    padding-right: 42px;
-    color: black;
+    position:fixed;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #030303;
 }
 
 .logo-text {
     display: flex;
     align-items: center;
+    
 }
 
 .logo-text h1{
     padding-left: 20px;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 5px;
-    font-weight: 800;
+    font-family: 'Carter One', cursive;
+    letter-spacing: 6px;
+    font-weight: 200;
     font-size: 35px;
+    background: -webkit-linear-gradient(#D9E021, #8CC63F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .nav-links {
+    padding-left: 40px;
+    padding-right: 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 50vw;
 }
 
 .nav-links a {
-    color:white;
+    background: -webkit-linear-gradient(#D9E021, #8CC63F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-decoration: none;
-    letter-spacing: 3px;
+    letter-spacing: 2.5px;
     font-size: 20px;
+    font-weight: 600;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -158,19 +89,119 @@ nav {
 .burger div{
     width: 30px;
     height: 3px;
-    background-color: black;
+    background: linear-gradient(#D9E021, #8CC63F);
     margin: 6px;
-    color: black;
+}
+
+.intro {
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    color: #F1F1F1;
+
+}
+.prog {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    animation: logo-anime 9s ease-in-out infinite;
+}
+@keyframes logo-anime {
+    0% {
+        color: #8CC63F;
+    }
+    25% {
+        color: #D9E021;
+    }
+    40% {
+        color: #8CC63F;
+    }
+    50% {
+        color: #D9E021;
+    }
+    60% {
+        color: #8CC63F;
+    }
+    75% {
+        color: #D9E021;
+    }
+    100% {
+        color: #8CC63F;
+    }
+}
+
+.intro-p {
+    font-family: Poppins;
+    color: #F1F1F1;
+    font-size: 30px;
+    max-width: 900px;
+}
+.laptop img{
+    height: 360px;
+}
+.e-button {
+    font-size: 32px;
+    padding: 5px;
+    background: linear-gradient(#D9E021, #8CC63F);
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+.e-button:hover {
+    background-color: black;
+    background: -webkit-linear-gradient(#D9E021, #8CC63F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+
+}
+.social img{
+    width: 36px;
+}
+.social {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.social img:hover {
+    opacity: 0.5;
+}
+@media only screen and (max-width: 1024px) {
+    .logo-text h1 {
+        font-size: 27px;
+    }
+    .intro, .prog {
+        font-size: 30px;
+    }
+    .intro-p {
+        font-size: 25px;
+        max-width: 450px;
+    }
+    .laptop img {
+        height: 290px;
+    }
+    .nav-links a {
+        font-size: 15px;
+    }
+    .nav-links {
+        width: 62vw;
+        padding-right: 0;
+    }
 }
 
 
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 724px) {
     
     nav {
         display: flex;
         justify-content: space-between;
-        padding-left: 42px;
-        padding-right: 42px;
+        padding-left: 12px;
+        padding-right: 30px;
         flex-direction: row;
         text-align: center;
         height: 9vh;
@@ -184,7 +215,7 @@ nav {
         position: absolute;
         right: 0px;
         height: 100vh;
-        background-color: rgba(0, 0, 0, 1);
+        background-color: rgb(255, 255, 255);
         top: 0vh;
         display: flex;
         flex-direction: column;
@@ -195,6 +226,7 @@ nav {
         justify-content: space-evenly;
         padding-bottom: 50px;
         z-index: -1;
+        padding-left: 0;
     }
     .nav-links a {
         font-size: 23px;
@@ -206,44 +238,38 @@ nav {
         display: block;
         cursor: pointer;
     }
-    .logo{
-        height: 32px;
+    .logo-text {
+        font-family: 'Carter One', cursive;
     }
-    .logo-text h1{
+    .laptop img {
         display: none;
     }
-
-    .home-div {
-        width: 80vw;
-        height: 80vh;
-        font-size: 3.8vw;
+    .intro, .prog {
+        font-size: 7vw;
     }
-    .home-div h1, h6, p {
-        padding: 0px 20px 0px 20px;
-    } 
-    .fa {
+    .intro-p {
+        font-size: 5vw;
+        max-width: 260px;
+    }
+    .social img {
+        width: 30px;
+    }
+    .e-button {
         font-size: 25px;
-        padding: 12px;
-        display: flex;
-        justify-content: center;
+        padding: 3px;
     }
-    .home-div img {
-        width: 39vw;
-        height: auto;
-    }
-    .home-div p {
-        max-width: 75vw;
-        letter-spacing: 3px;
-    }
-
-    .home-div h1 {
-        letter-spacing: 3px;
+    .nav-links a {
+        color: #000;
+        background: black;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }
 
 .nav-active {
     transform: translateX(0%);
 }
+
 
 @keyframes navLinkFade {
     from {
