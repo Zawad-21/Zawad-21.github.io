@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki API</title>
+    
+    <link rel="stylesheet" href="./dist/css/style.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+</head>
+<body>
+    <main>
+        <h1 class="offScreen"></h1>
+        <section class="searchEntry">
+            <h2 class="offScreen"></h2>
+            <div class="logo" aria-hidden="true">
+                <span class="blue">S</span>
+                <span class="red">e</span>
+                <span class="yellow">a</span>
+                <span class="blue">r</span>
+                <span class="green">c</span>
+                <span class="red">h</span>
+                <span class="blue">M</span>
+                <span class="yellow">e</span>
+                <span class="red exclaim">!</span>
+            </div>
+            <form id="searchBar" class="searchBar" action="">
+                <label for="search" class="offScreen"></label>
+                <input type="text" name="" id="search" autocomplete="off">
+                <div id="clear" class="none button clear" role="button" tabindex="0" aria-label="clear search terms"><i class="fas fa-times"></i></div>
+                <button id="searchButton" class="buton searchButton" type="submit" aria-label="sunmit button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </section>
+        <section class="results">
+            <h2 class="offScreen"></h2>
+            <div class="statsBar">
+                <div id="stats" class="stats" aria-live="assertive"></div>
+                <div class="searchResults" id="searchResults">
+                    <div class="resultItem">
+                        <div class="resultTitle">
+                            <a href="">Munchkin</a>
+                        </div>
+                        <div class="resultContents">
+                            <div class="resultImage">
+                                <img src="" alt="Munchkin">
+                            </div>
+                            <div class="resultText">
+                                <p class="resultDescription"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p><span aria-hidden="true">&lt;&lt;</span> Powered by <a href="https://www.wikipidea.org" target="_blank">Wikipidea</a><span aria-hidden="true"> &gt;&gt;</span></p>
+    </footer>
+    <script src="./js/app.js" type="module"></script>
+</body>
+</html>
