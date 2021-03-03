@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: linear-gradient(#93a5cf,#aeb8b2);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+}
+
+.btns button {
+    margin: 10px;
+    font-size: 30px;
+    padding: 5px;
+} 
+
+.tetro-divs {
+    width: 600px;
+    height: 800px;
+    display: none;
+    flex-wrap: wrap;
+    background-color: rgb(17, 17, 17);
+}
+
+.tetro-divs div {
+    height: 40px;
+    width: 40px;
+    border: 2px solid rgb(17, 17, 17);
+}
+
+.tetromino {
+    background-color: darkorange;
+    border: 1px solid whitesmoke;
+}
+
+.tetro-divs div.permanent {
+    border: none;
+}
+
+.control-btns {
+    display: none;
+}
+
+@media (max-width: 720px) {
+    .control-btns {
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 500px;
+        padding-top: 15px;
+    }
+    .tetro-divs {
+        width: 300px;
+        height: 400px;
+    }
+    .tetro-divs div {
+        height: 20px;
+        width: 20px;
+        border: 1px solid rgb(17, 17, 17);
+    }
+    .control-btns button {
+        padding: 10px;
+        font-size: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .score {
+        display: none;
+    }
+}
